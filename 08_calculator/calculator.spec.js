@@ -13,7 +13,7 @@ describe('add', () => {
 		expect(calculator.add(2,6)).toBe(8);
 	});
 });
-
+/*
 describe('subtract', () => {
 	test.skip('subtracts numbers', () => {
 		expect(calculator.subtract(10,4)).toBe(6);
@@ -75,3 +75,4 @@ describe('factorial', () => {
 		expect(calculator.factorial(10)).toBe(3628800);
 	});
 });
+*/
