@@ -3,24 +3,22 @@ const add = (a,b) => a+b;
 
 const subtract = (a, b) => a - b;
 
-const sum = sumup(sumArray) {
-  let total = 0
-  for (let i=0; i<sumArray.length; i++) {
-    total = total + sumArray[i];
+const sum = (array) => array.reduce((total,current) => total + current,0);
+
+const multiply = (array) => array.reduce((total,current) => total * current,1);
+
+const power = (a,b) => a**b;
+
+const factorial = a => {
+  if (a===0) {
+    a = 1;
   }
-  return total;
-});
-
-const multiply = function() {
-
-};
-
-const power = function() {
-	
-};
-
-const factorial = function() {
-	
+  else {
+    for (let i = a-1; i>1; i--) {
+      a = a*i
+    }
+  };
+  return a;	
 };
 
 // Do not edit below this line
