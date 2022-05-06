@@ -1,17 +1,15 @@
-console.log ("iamhere");
-const add = function(a,b) {
-	return a+b;
-};
-const total = add(2,3);
-console.log(total);
 
-const subtract = function() {
-	
-};
+const add = (a,b) => a+b;
 
-const sum = function() {
-	
-};
+const subtract = (a, b) => a - b;
+
+const sum = sumup(sumArray) {
+  let total = 0
+  for (let i=0; i<sumArray.length; i++) {
+    total = total + sumArray[i];
+  }
+  return total;
+});
 
 const multiply = function() {
 
