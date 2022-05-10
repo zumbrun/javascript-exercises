@@ -1,4 +1,4 @@
-const fibonacci = function(a) {
+const fibonacci = a => {
     if (a < 0) return "OOPS";
     let prevsum = 0;
     let currentsum = 1;
